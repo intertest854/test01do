@@ -1,0 +1,6 @@
+services:
+  webapplication3mm:
+    image: ${DOCKER_REGISTRY-}webapplication3mm
+    build:
+      context: .
+      dockerfile: WebApplication3mm/Dockerfile
